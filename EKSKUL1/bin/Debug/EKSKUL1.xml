@@ -1,0 +1,196 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EKSKUL1
+</name>
+</assembly>
+<members>
+<member name="T:EKSKUL1.EKSKUL1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.EkskulDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.GuruDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.Jadwal_EkskulDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.Jawaban_EkskulDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.Nilai_EkskulDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.SiswaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.EkskulRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.GuruRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.Jadwal_EkskulRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.Jawaban_EkskulRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.Nilai_EkskulRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.SiswaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.EkskulRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.GuruRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.Jadwal_EkskulRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.Jawaban_EkskulRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.Nilai_EkskulRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSet.SiswaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSetTableAdapters.EkskulTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSetTableAdapters.GuruTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSetTableAdapters.Jadwal_EkskulTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSetTableAdapters.Jawaban_EkskulTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSetTableAdapters.Nilai_EkskulTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSetTableAdapters.SiswaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EKSKUL1.EKSKUL1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EKSKUL1.EKSKUL1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EKSKUL1.EKSKUL1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EKSKUL1.EKSKUL1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EKSKUL1.EKSKUL1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EKSKUL1.EKSKUL1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EKSKUL1.EKSKUL1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EKSKUL1.EKSKUL1DataSetTableAdapters.TableAdapterManager.UpdateAll(EKSKUL1.EKSKUL1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EKSKUL1.EKSKUL1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:EKSKUL1.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EKSKUL1.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EKSKUL1.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EKSKUL1.My.Resources.Resources.profil">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
